@@ -517,26 +517,22 @@ img {
         background-color: #404BBF;
     }
     
-    .footer-icon {
         .footer-icon {
-                margin-left: 16px;
-            }
-        
-        fill: #f4f4fd;
-        
-    }
-    
-    .footer-link:hover,
-    .footer-link:focus {
-        background-color: #31D0AA;}
-        
-        .footer-icon {
+            margin-left: 16px;
+            /* Задати лівий відступ у 16 пікселів */
             fill: #f4f4fd;
         }
-        
+    
+        .footer-link:hover,
+        .footer-link:focus {
+            background-color: #31D0AA;
+        }
+    
         .footer-subscribe {
             margin-left: auto;
-        }.subscribe-text {
+        }
+    
+        .subscribe-text {
             margin-bottom: 16px;
             font-weight: 500;
             font-size: 16px;
@@ -544,34 +540,30 @@ img {
             letter-spacing: 0.02em;
             color: #fff;
         }
-        
+    
         .subscribe-form {
             display: flex;
             gap: 24px;
         }
-        
+    
         .subscribe-input {
             border: 1px solid #fff;
             border-radius: 4px;
-        
             width: 264px;
             height: 40px;
             padding-left: 16px;
-        
             background-color: transparent;
             color: #fff;
-        
             box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
             font-weight: 400;
             font-size: 12px;
             line-height: 2;
             letter-spacing: 0.04em;
         }
-        
+    
         .subscribe-input::placeholder {
             color: #ffffff;
         }
-        
         
         .subscribe-btn {
             border-radius: 4px;
