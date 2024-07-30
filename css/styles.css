@@ -496,19 +496,38 @@ img {
                                     height: 40px;
                                 }
                 
-                                                                .subscribe-btn {
-                                                                    display: flex;
-                                                                    align-items: center;
-                                                                    gap: 10px;
-                                                                    /* Відступ між текстом і іконкою */
-                                                                    background-color: #4D5AE5;
-                                                                    color: #f4f4fd;
-                                                                    border: none;
-                                                                    padding: 10px 20px;
-                                                                    font-size: 16px;
-                                                                    cursor: pointer;
-                                                                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                                                                }
+                                                                                                                                .subscribe-btn {
+                                                                                                                                    display: flex;
+                                                                                                                                    align-items: center;
+                                                                                                                                    padding: 0;
+                                                                                                                                    border: none;
+                                                                                                                                    background: #4d5ae5;
+                                                                                                                                    color: #fff;
+                                                                                                                                    font-family: "Roboto", sans-serif;
+                                                                                                                                    font-weight: 500;
+                                                                                                                                    font-size: 16px;
+                                                                                                                                    line-height: 150%;
+                                                                                                                                    letter-spacing: 0.04em;
+                                                                                                                                    cursor: pointer;
+                                                                                                                                    padding: 16px 32px;
+                                                                                                                                    border-radius: 4px;
+                                                                                                                                    margin: 0 auto;
+                                                                                                                                    height: 56px;
+                                                                                                                                    min-width: 169px;
+                                                                                                                                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                                                                                                                                }
+                                                                
+                                                                                                                                .subscribe-btn:hover,
+                                                                                                                                .subscribe-btn:focus {
+                                                                                                                                    background-color: #404BBF;
+                                                                                                                                }
+                                                                
+                                                                                                                                .footer-icon {
+                                                                                                                                    margin-left: 10px;
+                                                                                                                                    /* задаємо лівий margin для іконки */
+                                                                                                                                    fill: #f4f4fd;
+                                                                                                                                    /* задаємо колір іконки */
+                                                                                                                                }
                                 .footer-link:hover,
                                 .footer-link:focus {
                                     background-color: #31D0AA;
