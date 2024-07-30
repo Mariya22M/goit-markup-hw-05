@@ -522,12 +522,12 @@ img {
                                                                                                                                     background-color: #404BBF;
                                                                                                                                 }
                                                                 
-                                                                                                                                .footer-icon {
-                                                                                                                                    margin-left: 10px;
-                                                                                                                                    /* задаємо лівий margin для іконки */
-                                                                                                                                    fill: #f4f4fd;
-                                                                                                                                    /* задаємо колір іконки */
-                                                                                                                                }
+                                                                                                                                                                                                                                                                .footer-icon {
+                                                                                                                                                                                                                                                                    margin-left: 10px;
+                                                                                                                                                                                                                                                                    /* задаємо лівий margin для іконки */
+                                                                                                                                                                                                                                                                    fill: #f4f4fd;
+                                                                                                                                                                                                                                                                    /* задаємо колір іконки */
+                                                                                                                                                                                                                                                                }
                                 .footer-link:hover,
                                 .footer-link:focus {
                                     background-color: #31D0AA;
