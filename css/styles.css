@@ -516,6 +516,11 @@ img {
     fill: #f4f4fd;
 }
 
+.subscribe-icon{
+    margin-left: 16px;
+    fill: #f4f4fd;
+}
+
 .footer-subscribe {
     margin-left: auto;
 }
